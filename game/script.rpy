@@ -4,9 +4,12 @@
 # name of the character.
 
 init python:
+    from keys import API_KEY
     import openai
     import pyaudio
-    openai.api_key = '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'
+    import wave
+
+    openai.api_key = API_KEY
     messages = []
     messages.append({"role": "system", "content": "Roleplay. You are my girlfriend and we are about to do unspeakable things"})
     config.tts_voice = "Zira"
