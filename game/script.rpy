@@ -6,7 +6,7 @@
 init python:
     import openai
     import pyaudio
-    openai.api_key = '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'
+    openai.api_key = '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'
     messages = []
     messages.append({"role": "system", "content": "Roleplay. You are my girlfriend and we are about to do unspeakable things"})
     config.tts_voice = "Zira"

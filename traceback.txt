@@ -12,18 +12,18 @@ ModuleNotFoundError: No module named 'pyaudio._portaudio'
 Full traceback:
   File "game/script.rpy", line 6, in script
     init python:
-  File "C:\Users\ralse\Desktop\renpy-8.1.0-sdk\renpy\ast.py", line 1138, in execute
+  File "/Users/jamie/Programming/renpy-8.1.0-sdk/renpy/ast.py", line 1138, in execute
     renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "C:\Users\ralse\Desktop\renpy-8.1.0-sdk\renpy\python.py", line 1122, in py_exec_bytecode
+  File "/Users/jamie/Programming/renpy-8.1.0-sdk/renpy/python.py", line 1122, in py_exec_bytecode
     exec(bytecode, globals, locals)
   File "game/script.rpy", line 8, in <module>
     import pyaudio
-  File "C:\Users\ralse\Desktop\renpy-8.1.0-sdk\renpy\loader.py", line 1020, in load_module
+  File "/Users/jamie/Programming/renpy-8.1.0-sdk/renpy/loader.py", line 1020, in load_module
     exec(code, mod.__dict__) # type: ignore
   File "python-packages/pyaudio/__init__.py", line 111, in <module>
 ModuleNotFoundError: No module named 'pyaudio._portaudio'
 
-Windows-10-10.0.19045 AMD64
+macOS-13.1-arm64-arm-64bit arm64
 Ren'Py 8.1.0.23050201
 SexII 1.0
-Fri May  5 18:49:22 2023
+Fri May  5 19:20:14 2023
